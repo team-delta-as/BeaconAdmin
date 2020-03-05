@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#186ff2</color>
+    <color name="colorPrimaryDark">@color/colorPrimary</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#cccccc</color>
+    <color name="cloudy_blue_transparent_50">#7fbfd0dd</color>
+    <color name="dark_transparent_80">#cc2e3546</color>
+    <color name="black_transparent_87">#de000000</color>
+    <color name="black_transparent_100">#00000000</color>
+    <color name="grey_transparent_80">#80e4e4e4</color>
+    <color name="black_transparent_54">#8a000000</color>
+    <color name="blue_home_buttons">#1359c2</color>
+    <color name="team_photo_border_bg">#C3BBAB</color>
+    <color name="poi_list_indicator_color">#1c000000</color>
+    <color name="poi_desc_color">#99000000</color>
+    <color name="end_navigation">#d93b3b</color>
+    <color name="light_grey">#e4e4e4</color>
+    <color name="grey_user_profile">#D8D8D8</color>
+    <color name="user_profile_divider">#403c3c43</color>
+    <color name="profile_bg">#efeff4</color>
+    <color name="navigation_overlay_view_bg_color">#0d8040</color>
+    <color name="grey_distance">#B3FFFFFF</color>
+    <color name="grey_navigator_line">#4a3c3c43</color>
+    <color name="white_40">#61000000</color>
+    <color name="dark_grey">#993C3C43</color>
+</resources>

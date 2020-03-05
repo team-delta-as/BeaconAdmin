@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tool_bar_text">20sp</dimen>
+    <dimen name="minimum_click_target">48dp</dimen>
+    <dimen name="textview_padding">24dp</dimen>
+    <dimen name="text_medium">20sp</dimen>
+    <dimen name="text_small">14sp</dimen>
+    <dimen name="item_offset">8dp</dimen>
+    <dimen name="cardview_corner_radius">4dp</dimen>
+</resources>

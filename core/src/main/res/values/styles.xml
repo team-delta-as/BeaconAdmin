@@ -1,0 +1,269 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="Toolbar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:elevation" tools:ignore="NewApi">1dp</item>
+    </style>
+
+    <style name="ToolbarWithoutShadow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">?attr/actionBarSize</item>
+        <item name="android:minHeight">?attr/actionBarSize</item>
+        <item name="android:elevation" tools:ignore="NewApi">0dp</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="AppTheme">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="AppTheme.ToolbarTransparent" parent="AppTheme" tools:keep="@style/AppTheme_ToolbarTransparent">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/tool_bar_text</item>
+        <item name="android:letterSpacing">0.01</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:fontFamily">@font/app_roboto_medium</item>
+    </style>
+
+    <style name="MenuActionText" parent="TextBold">
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:letterSpacing">0.11</item>
+        <item name="android:lineSpacingExtra">1sp</item>
+        <item name="android:fontFamily">@font/app_roboto_medium</item>
+    </style>
+
+    <style name="AppTheme.ToolbarBlue.OverflowMenu" parent="ThemeOverlay.AppCompat.Light">
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <style name="TextBold">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="WelcomeBulletText" parent="TextRegular">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_marginStart">8dp</item>
+        <item name="android:drawablePadding">8dp</item>
+    </style>
+
+    <style name="WelcomeBulletImageView">
+        <item name="android:layout_width">14dp</item>
+        <item name="android:layout_height">14dp</item>
+        <item name="android:src">@drawable/ic_bullet</item>
+        <item name="android:layout_marginStart">24dp</item>
+        <item name="android:layout_marginTop">12dp</item>
+        <item name="android:paddingTop">9dp</item>
+    </style>
+
+    <style name="AboutScreenButtonStyle" parent="TextMedium">
+        <item name="android:background">@drawable/grey_button_bg</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="UserInfo" tools:keep="@style/UserInfo">
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BlueButton" parent="Widget.AppCompat.Button.Colored" tools:keep="@style/BlueButton">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/app_roboto_medium</item>
+    </style>
+
+    <style name="BlueTextButton" parent="Widget.AppCompat.Button.Colored">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Small</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="SsoSelectorButton" tools:keep="@style/SsoSelectorButton">
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingTop">8dp</item>
+        <item name="android:paddingBottom">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_marginTop">32dp</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+    </style>
+
+    <style name="TextButton" parent="Base.Widget.AppCompat.Button.Borderless">
+        <item name="android:textSize">16sp</item>
+        <item name="android:minHeight">@dimen/minimum_click_target</item>
+        <item name="android:minWidth">@dimen/minimum_click_target</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="TextButton.DialogNegativeButton">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:fontFamily">@font/app_roboto_medium</item>
+    </style>
+
+    <style name="TextButton.DialogPositiveButton">
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:minHeight">36dp</item>
+        <item name="android:minWidth">80dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:paddingEnd">8dp</item>
+        <item name="android:paddingStart">8dp</item>
+        <item name="android:foreground">?android:attr/selectableItemBackground</item>
+        <item name="android:fontFamily">@font/app_roboto_medium</item>
+    </style>
+
+    <style name="RadioButtonStyle" parent="Widget.AppCompat.CompoundButton.RadioButton">
+        <item name="buttonTint">@color/colorPrimary</item>
+        <item name="android:fontFamily">@font/app_roboto_medium</item>
+    </style>
+
+    <style name="TextMedium">
+        <item name="android:fontFamily">@font/app_roboto_medium</item>
+    </style>
+
+    <style name="TextRegular">
+        <item name="android:fontFamily">@font/app_roboto_regular</item>
+    </style>
+
+    <style name="text_medium" parent="TextMedium">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.04</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="text_regular" parent="TextRegular">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.05</item>
+        <item name="android:lineSpacingExtra">4sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="button_style" parent="TextMedium">
+        <item name="android:background">@drawable/button_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="sso_button_style" parent="button_style">
+        <item name="android:background">@drawable/grey_button_bg</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="MenuTextAppearance" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:fontFamily">@font/app_roboto_medium</item>
+    </style>
+
+    <style name="AppTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textSize">14sp</item>
+        <item name="android:padding">15dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="textAllCaps">true</item>
+        <item name="android:fontFamily">@font/app_roboto_medium</item>
+    </style>
+
+    <style name="AppTabLayout" parent="Widget.Design.TabLayout">
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="tabBackground">?attr/selectableItemBackground</item>
+        <item name="tabTextAppearance">@style/AppTabTextAppearance</item>
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="tabIndicatorHeight">3dp</item>
+        <item name="tabSelectedTextColor">@color/white</item>
+        <item name="tabMaxWidth">4000dp</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+        <item name="android:elevation">8dp</item>
+    </style>
+
+    <style name="NavigationButton" parent="text_medium">
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:layout_marginTop">16dp</item>
+        <item name="android:layout_marginBottom">16dp</item>
+        <item name="android:layout_marginStart">16dp</item>
+        <item name="android:layout_marginEnd">16dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/end_navigation</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="LogoutButton" parent="text_medium">
+        <item name="android:paddingTop">6dp</item>
+        <item name="android:paddingBottom">6dp</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/end_navigation</item>
+        <item name="android:letterSpacing">0.02</item>
+        <item name="android:lineSpacingExtra">10sp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:stateListAnimator">@null</item>
+    </style>
+
+    <style name="text_regular_dialog" parent="TextRegular">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.03</item>
+        <item name="android:gravity">center</item>
+        <item name="android:lineSpacingExtra">8sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+</resources>

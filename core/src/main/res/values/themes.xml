@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="colorControlActivated">@color/white</item>
+        <item name="android:actionBarStyle">@style/AppTheme.Toolbar</item>
+        <item name="actionMenuTextAppearance">@style/MenuActionText</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.SplashScreen" parent="AppTheme">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/white</item>
+    </style>
+
+    <style name="AppTheme.FullScreen" parent="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="AppTheme.HomeScreen" parent="AppTheme">
+        <item name="actionMenuTextAppearance">@style/MenuTextAppearance</item>
+        <item name="android:actionMenuTextAppearance">@style/MenuTextAppearance</item>
+    </style>
+
+    <style name="AppTheme.UserProfileScreen" parent="AppTheme">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="AppTransparentDialog" parent="@android:style/Theme.Material.Dialog">
+        <item name="android:windowBackground">@drawable/transparent_dialog_bg</item>
+        <item name="android:background">@null</item>
+    </style>
+
+</resources>

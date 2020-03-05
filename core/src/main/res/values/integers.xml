@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="buildingId_hyderabad">94204</integer>
+    <integer name="buildingId_denver">73785</integer>
+    <integer name="anim_duration_medium">300</integer>
+</resources>

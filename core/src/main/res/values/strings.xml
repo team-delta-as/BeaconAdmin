@@ -1,0 +1,219 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">core</string>
+
+    <string name="welcome_to_delta_connect">WELCOME TO \nDELTA CONNECT</string>
+    <string name="about_title">About Delta Tech</string>
+    <string name="login">Sign In</string>
+    <string name="submit">Submit</string>
+
+    <string name="welcome_desc">Our aim is to be an organization of value, respect and extreme transparency and to
+        continuously innovate, improve and deliver efficient and effective business solutions.
+    </string>
+
+    <string name="welcome_desc_bullet_1">
+        Delta Technology was founded in 2006 with an idea to provide IT services with a high level of transparency.
+    </string>
+    <string name="welcome_desc_bullet_2">Our aim is to enable our customers to continuously innovate, improve and
+        deliver efficient and effective business solutions.
+    </string>
+    <string name="welcome_desc_bullet_3">The idea became a reality with our first project that focused on the delivery
+        and global implementation of an ERP system.
+        Delta Technology’s reach extended to Brazil, Uganda, Zambia, Argentina, Indonesia, United Kingdom and USA
+        within a very short
+        span of time.
+    </string>
+    <string name="welcome_desc_bullet_4">We were appraised as a CMMI Level III company in 2012. As the company
+        progressed, we forayed into solution development and now, our client portfolio has grown to include some of the
+        big names in the finance, agribusiness and government sectors.
+    </string>
+    <string name="welcome_desc_bullet_5">
+        Delta Technology’s footprint extends across India, USA, UAE and Australia with offices strategically located in
+        Hyderabad, Mumbai, Dubai and Dallas.
+    </string>
+    <string name="test_activity">TEST ACTIVITY</string>
+    <string name="call_us_at">Call Us</string>
+    <string name="delta_contact_number">04046474444</string>
+
+    <string name="error_username">Username should not be empty</string>
+    <string name="error_username_email">Username &amp; Email should not be empty</string>
+    <string name="error_email">Email should not be empty</string>
+    <string name="error_email_validation">Enter valid email</string>
+    <string name="email">Email</string>
+    <string name="user_name">User Name</string>
+
+    <string name="image">image</string>
+
+    <string name="navigate">Navigate</string>
+    <string name="map">Map</string>
+    <string name="list">List</string>
+    <string name="asset_image_path">file:///android_asset/%1$s/%2$s</string>
+
+    <!-- Phunware Keys -->
+    <string name="pw_app_id">353</string>
+    <string name="pw_access_key">b63dd07b89727a5d2211d3b88c3a14923193cb98</string>
+    <string name="pw_signature_key">f5f0d3b83b64b7fc375084261c2de227d93fcf7b</string>
+
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyCbjnn9J2oSLB3YwYhnzx2edJavKDLyDjY
+    </string>
+
+    <!-- Floor Switching -->
+
+
+    <string name="welcome_to_delta">Welcome to Delta Technology</string>
+    <string name="geofence_notification_body">Entering the campus!</string>
+    <string name="dc_notification_channel">Delta Connect Updates</string>
+    <string name="dc_notification_channel_description">Delta Connect can send you important notifications regarding
+        check-in status and event reminders.
+    </string>
+
+
+    <string name="kontakt_api_key">bFfnROsujwFNoIQqsmEIOxBzjzxdjpwr</string>
+    <string name="user_permission">User Permissions</string>
+    <string name="enable_location_permission">Enable Location Permission</string>
+    <string name="enable_gps">Enable GPS</string>
+    <string name="enable_bluetooth">Enable Bluetooth</string>
+    <string name="permission_description">Delta Connect needs to know where you are in order to provide you with the
+        best experience. Enable the following permissions to continue.
+    </string>
+    <string name="not_now">Not Now</string>
+    <string name="settings">Settings</string>
+    <string name="location_permission_required">Location Permission Required</string>
+    <string name="location_permission_settings_msg">
+        <![CDATA[Allow Delta Connect to know where you are. To enable go to Settings -> Permissions and turn on Location]]></string>
+    <string name="route_not_found">Couldn\'t find the path for %1$s</string>
+    <string name="away_from_building">"You are away from delta technologies, Please enter Capella Block - 7th floor,
+        Ascendas IT Park, The V, Plot No 17, Software Units Layout, Madhapur, Hyderabad, Telangana
+    </string>
+    <string name="away_from_building_denver">"You are away from WWT, Please enter World Wide Technologies, 2300 15th
+        Street, Suite 100 Denver, Colorado 80202, United States
+    </string>
+
+    <string name="retry">RETRY</string>
+    <string name="phunware_sdk_initialization_error">Error in initializing PhunwareSDK</string>
+    <string name="unable_to_load_building">Unable to load building</string>
+    <string name="ok">OK</string>
+    <string name="dialog_title">Alert</string>
+    <string name="login_request_cancel_msg">Request cancelled by user</string>
+    <string name="network_unavailable">Check your network connection</string>
+    <string name="dialog_buildings_list_title">Select Building</string>
+    <string name="deltatech_capella">Hyderabad</string>
+    <string name="wwt_asynchrony_labs">Denver</string>
+    <string name="automatic">Automatic</string>
+
+    <string name="no_data_available">No Data Available</string>
+    <string name="exception_error">Error : %1$s</string>
+
+    <!--turn by turn-->
+    <string name="no_route" tools:keep="@string/no_route">Couldn\'t find a route matching your search.</string>
+    <string name="turn_left">Turn Left</string>
+    <string name="turn_right">Turn Right</string>
+    <string name="bear_left">Bear Left</string>
+    <string name="bear_right">Bear Right</string>
+    <string name="continue_straight_distance" formatted="false">
+        Continue Straight for %s
+    </string>
+
+    <string name="unknown_error">Unknown Error</string>
+    <string name="floor_change_message_format" formatted="false">Take the %s %s %d</string>
+    <string name="up_to_level">up to level</string>
+    <string name="down_to_level">down to level</string>
+    <string name="to">to</string>
+    <string name="next_maneuver">Next:</string>
+    <string name="to_arrive">to arrive at %1$s</string>
+    <string name="custom_location_title">Custom Location</string>
+    <string name="elevator">elevator</string>
+    <string name="stairs">stairs</string>
+    <string name="down">down</string>
+    <string name="meet_the_team">Meet the Team</string>
+    <string name="delta_technology">Delta Technology</string>
+    <string name="in_partnership">in partnership with World Wide Technology</string>
+    <string name="delta_wwt_text">Delta Technology and World Wide Technology are working together to explore cutting
+        edge, up and coming mobile technologies.
+    </string>
+    <string name="navigate_indoors">Navigate indoors through offices, hospitals, universities, and other large campuses
+        without having to rely on weak GPS signals.
+    </string>
+    <string name="indoor_navigation">Indoor Navigation</string>
+    <string name="try_it">TRY IT!</string>
+    <string name="about_delta_tech">About Delta Tech</string>
+    <string name="learn_about_delta">Learn about Delta Tech and meet the team behind this app.</string>
+    <string name="learn_more">LEARN MORE</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="logo">Logo</string>
+    <string name="authentication_failed">Authentication failed.</string>
+    <string name="choose_a_destination_for_directions">Choose a destination for directions.</string>
+    <string name="go">GO</string>
+    <string name="add_to_favorites">Add To Favorites</string>
+    <string name="remove_from_favorites">Remove From Favorites</string>
+    <string name="end_navigation">END NAVIGATION</string>
+    <string name="resume">RESUME</string>
+    <string name="no_poi_error">Unable to get Point of interests</string>
+    <string name="sign_in_with_email">Sign In with Email</string>
+    <string name="sign_in_with_linkedin">Sign In with LinkedIn</string>
+    <string name="sign_in_with_google">Sign In with Google</string>
+    <string name="user_profile">User Profile</string>
+    <string name="edit">Edit</string>
+    <string name="name">Name</string>
+    <string name="preferred_location">PREFERRED LOCATION</string>
+    <string name="preferred_distance_unit">PREFERRED DISTANCE METRIC</string>
+    <string name="location">Location</string>
+    <string name="personal_info">Personal Info</string>
+    <string name="profile_image">Profile Image</string>
+    <string name="pre_permission_desc">Navigate indoors through offices, hospitals, universities, and other large
+        campuses without having to rely on weak GPS signals.
+    </string>
+    <string name="pre_permission_title">Indoor Navigation</string>
+    <string name="location_permission_desc">We need your permission to access your location, GPS and bluetooth data in
+        order to assist with indoor navigation.
+    </string>
+    <string name="never_mind_text">Nevermind</string>
+
+    <!--Screen Title-->
+    <string name="permission">Permissions</string>
+    <string name="cancel">Cancel</string>
+    <string name="navigate_to_text">Navigate to</string>
+    <string name="distance_metric">Metric</string>
+    <string name="select_building">Select Building</string>
+    <string name="select_metric">Select Metric</string>
+    <string name="meters">Meters</string>
+    <string name="feet">Feet</string>
+    <string name="nick_name">Nickname</string>
+    <string name="navigation_only_works_msg">Navigation only works inside the Denver and Hyderabad offices.</string>
+    <string name="select_source">Select source</string>
+
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+
+    <string name="maps">Maps</string>
+    <string name="outside_office_title">Outside Office</string>
+    <string name="outside_office_msg">To begin navigation, please enter the %s Office</string>
+    <string name="wwt_office_name">WWT AS - Denver</string>
+    <string name="delta_office_name">Delta Technology - Hyderabad</string>
+
+    <string name="navigate_google_maps">Maps</string>
+
+    <string name="hyderabad_building_address">Capella Block - 7th floor,
+        Ascendas IT Park, The V, Plot No 17, Software Units Layout, Madhapur, Hyderabad, Telangana
+    </string>
+    <string name="denver_building_address">World Wide Technologies, 2300 15th Street, Suite 100 Denver, Colorado 80202,
+        United States
+    </string>
+    <string name="google_navigates_api">https://www.google.com/maps/dir/?api=1&amp;travelmode=driving</string>
+    <string name="maps_url">http://maps.google.com/maps?daddr=%s</string>
+    <string name="username_updated_successfully">Username updated successfully</string>
+    <string name="favorite_locations">FAVORITE LOCATIONS</string>
+    <string name="all_locations">ALL LOCATIONS</string>
+    <string name="please_sign_in">Please sign-in to mark it as favorite</string>
+    <string name="logout">Logout</string>
+    <string name="logout_confirmation_msg">Are you sure you want to logout? \nYou won\'t be able to See or Add Favorite
+        POI and change settings.
+    </string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="login_failure_msg">Error in SignIn, Please try again.</string>
+    <string name="has_been_added_to_fav_msg">%s has been added to your favorites.</string>
+    <string name="find_your_fav_locations">You can find all your favorite locations at the top of the List view.
+    </string>
+    <string name="alert">Alert</string>
+</resources>
